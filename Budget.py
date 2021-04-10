@@ -16,7 +16,6 @@ class Budget:
         # looping through the list
         for item in self.transaction_records:
             total += item["ammount"]
-            # print("You have a balance of {} Naira".format(total))
         return total
 
     def transfer(self, ammount, destination):
